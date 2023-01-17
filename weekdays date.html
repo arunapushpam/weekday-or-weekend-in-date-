@@ -1,0 +1,39 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<p id="day"></p>
+<script>
+
+	//week days
+	const date = new Date(prompt("enter date"));
+   document.getElementById("day").innerHTML= date.getDay();
+   
+   if(date===0 && 6){
+      console.log("weekend");
+   }
+   else{
+      console.logx("weekstart")
+   }
+
+//weekdays 
+   var Date = new Date(prompt("enter date"));
+   var day =Date.getDay();
+   
+   if (day===6 || day===0){
+      document.write("weekend");
+   }
+   else{
+      document.write("weekstart")
+   }
+
+</script>
+   
+   
+ </body>
+ </html>
